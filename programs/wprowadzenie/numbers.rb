@@ -4,6 +4,6 @@ i = 0
 if d == 1
   i = n
 else
-  loop  { i+=1; break if (result = result / d) == 0 }
+  loop  { i+=1; puts result;  break if (result = result / d) == 0 }
 end
 print i
